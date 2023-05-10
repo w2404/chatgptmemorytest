@@ -17,7 +17,7 @@
 
 下面我说下具体的实验办法，非常简单。用python脚本生成很多随机的名字，然后随机指定它们是一只猫或者一只狗，最后随机抽取其中一个名字，问AI这是不是一只狗。如此来生成一个任意长度的提问，来检查AI是否能再一个很长的对话跨度（记忆跨度）中抽取出正确的信息。
 
-一个范例带有6个名字的提问是这样的：
+一个带有6个名字的提问范例是这样的：
 I have 6 pets. Edeph is a dog. Ybtwd is a cat. Jmhcr is a cat. Oaaxo is a cat. Fdekr is a dog. Yukom is a cat.  Is Oaaxo a dog? Answer yes or no.
 
 我在rwkv 3B模型上测试过，10个名字也无法正确回答。在rwkv 14B模型上测试，100个名字也可以正确回答。而测试1000个名字的时候，我的显存炸了。毕竟我只有8G显存。
