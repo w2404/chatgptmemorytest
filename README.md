@@ -53,3 +53,7 @@ https://github.com/BlinkDL/RWKV-LM/issues/83
 
 但是，我这里打不开这个网页，“blinkdl-chatrwkv-gradio.hf.space unexpectedly closed the connection.”
 
+至于我自己，要花时间微调配置，才能在有限的8GB上运行起来，而且运行中要浪费很多时间在缓存交换上，运行速度可能慢到离谱，无法在可以预期的时间内完成实验。
+
+此外还可以租在线的gpu服务器，收费的价格似乎都很高。google的collab有12GB，可以免费用。
+
