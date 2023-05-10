@@ -39,4 +39,4 @@ AI被要求按顺序读完这句话，记住每只宠物是狗或是猫，最后
 
 https://github.com/BlinkDL/RWKV-LM/issues/83
 
-这里https://twitter.com/dpkingma/status/1638925275873579008 ，有人提到 RWKV is unable to utilize its full context length
+这里https://twitter.com/dpkingma/status/1638925275873579008 ，有人提到 RWKV is unable to utilize its full context length。而我们的实验，就是关于这一点的。
