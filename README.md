@@ -47,7 +47,7 @@ https://github.com/BlinkDL/RWKV-LM/issues/83
 
 # 补充
 
-虽然我自己只有8GB显存，运行更大尺度的测试比较困难。但是rwkv他们的服务器上也有一个14B模型，部署在 https://huggingface.co/spaces/BlinkDL/ChatRWKV-gradio
+虽然我自己只有8GB显存，运行更大尺度的测试比较困难。但是rwkv他们开发者自己部署了一个14B模型服务器，在 https://huggingface.co/spaces/BlinkDL/ChatRWKV-gradio
 
 他们的硬件更好，所以可以试试在他们的服务器上问1000个名字或是10000个名字。
 
