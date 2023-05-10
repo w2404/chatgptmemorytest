@@ -35,3 +35,8 @@ AI被要求按顺序读完这句话，记住每只宠物是狗或是猫，最后
 如果你读懂了我上面所说的话，你就知道，这个点子非常简单，需要的基础知识很少，所以任何有闲暇的人都可以联系我，考虑下合作？它或许会很重要，autogpt现在可是大热门。
 这个实验的重要性应该会取决于实验结果，如果实验结果显示chatrwkv的记忆长度可以超出chatgpt，那么就会成为chatrwkv比chatgpt更适合搭配autogpt的一个证明。
 
+补充，下面列举一些网上关于chatrwkv的对话长度的讨论：
+
+https://github.com/BlinkDL/RWKV-LM/issues/83
+
+这里https://twitter.com/dpkingma/status/1638925275873579008 ，有人提到 RWKV is unable to utilize its full context length
