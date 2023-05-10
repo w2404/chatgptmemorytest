@@ -45,3 +45,11 @@ https://github.com/BlinkDL/RWKV-LM/issues/83
 
 这里https://twitter.com/dpkingma/status/1638925275873579008 ，有人提到 RWKV is unable to utilize its full context length。而我们的实验，就是关于这一点的。
 
+# 补充
+
+虽然我只有8GB显存，运行更大尺度的测试比较难。但是rwkv他们的服务器上也有一个14B模型，部署在 https://huggingface.co/spaces/BlinkDL/ChatRWKV-gradio
+
+他们的硬件更好，所以可以试试在他们的服务器上问1000个名字或是10000个名字。
+
+但是，我这里打不开这个网页，“blinkdl-chatrwkv-gradio.hf.space unexpectedly closed the connection.”
+
